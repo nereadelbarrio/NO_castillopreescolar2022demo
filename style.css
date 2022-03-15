@@ -882,8 +882,14 @@ body #book-index #indice .col-main {
   /************************
    * CSS AÑADIDO POR HTML *
    ************************/
+#layout-container #main-screen #course-content .slider-wrapper .slider-itemtrack .slider-item {
+	background-color: transparent;
+}
 
-		/* Vuestro CSS aquí. */
+#layout-container #main-screen #course-content .slider-wrapper .slider-itemtrack .slider-item .section-desc {
+	max-height: 0%;
+}
+
 
    /************************
    * CSS AÑADIDO POR HTML *
