@@ -884,10 +884,29 @@ body #book-index #indice .col-main {
    ************************/
 #layout-container #main-screen #course-content .slider-wrapper .slider-itemtrack .slider-item {
 	background-color: transparent;
+	width: 300px;
 }
 
 #layout-container #main-screen #course-content .slider-wrapper .slider-itemtrack .slider-item .section-desc {
 	max-height: 0%;
+}
+
+#layout-container #main-screen #course-content .slider-wrapper .slider-itemtrack .slider-item .section-title {
+	background-color: transparent;
+}
+
+#layout-container #main-screen #course-content .slider-wrapper .slider-itemtrack .slider-item .section-title:before {
+	display: none;
+}
+
+#layout-container #main-screen #course-content .slider-wrapper .slider-itemtrack .slider-item:after {
+	background-color: transparent;
+}
+
+#layout-container #main-screen #course-content .slider-wrapper .slider-itemtrack .slider-item .section-title h3 {
+	color: #26354B;
+    font-weight: 800;
+    margin: auto;
 }
 
 
