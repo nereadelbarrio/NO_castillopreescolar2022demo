@@ -1211,7 +1211,6 @@ body #book-index #indice .col-main {
     color: #ffffff;
     margin: 0 15px;
     margin-bottom: 15px;
-    /* font-family: 'DK Smiling Cat'; */
     font-family: 'Nunito';
     text-shadow: 0px 3px 0px #26354b;
 }
@@ -1220,6 +1219,59 @@ body #book-index #indice .col-main {
 	display: none;
 }
 
+body #layout-container div[id*="section-screen"] .section .section-content .tabs {
+    align-items: stretch;
+    background-color: #50A799;
+    color: #ffffff;
+    flex: 1;
+    flex-direction: row;
+    justify-content: center;
+    user-select: none;
+}
+
+body #layout-container div[id*="section-screen"] .section .section-content .tabs .tab [class*="section-title-"] {
+    font-size: 18px;
+    font-weight: 600;
+    margin: 0 15px;
+    transition: color .2s ease-in-out;
+    text-transform: uppercase;
+}
+
+#layout-container div[id*="section-screen"] .section .section-content .tabs .tab:not(.active):hover [class*="section-title-"] {
+    color: #26354b;
+}
+
+#layout-container div[id*="section-screen"] .section .section-content {
+    background-color: #b7d05da8;
+    flex: 2;
+    flex-direction: column;
+}
+
+#layout-container div[id*="section-screen"] .section .section-data .section-title {
+    align-items: center;
+    background-color: #50A799;
+    background-image: none;
+    padding: 20px 10px;
+    position: relative;
+}
+
+#layout-container .section-title-1 {
+    font-size: 50px;
+}
+
+#layout-container div[id*="section-screen"] .section .section-content .tabs {
+    align-items: stretch;
+    background-color: #50a799;
+    color: #ffffff;
+    flex: 1;
+    flex-direction: row;
+    justify-content: center;
+    user-select: none;
+}
+
+background-image: url(/useruploads/r/a/402171738/activity_other_imported/fondo_titulos.png);
+    background-size: contain;
+    background-repeat: no-repeat;
 /*general*/
 body {
 	font-family: 'Nunito';
