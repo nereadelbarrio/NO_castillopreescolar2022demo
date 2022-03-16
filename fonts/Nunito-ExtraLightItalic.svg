@@ -10,7 +10,7 @@ Copyright 2014 The Nunito Project Authors (https://github.com/googlefonts/nunito
 <font id="Nunito-ExtraLightItalic" horiz-adv-x="0" >
   <font-face 
     font-family="Nunito ExtraLight"
-    font-weight="200"
+    font-weight="250"
     font-style="italic"
     font-stretch="normal"
     units-per-em="1000"
@@ -3409,6 +3409,30 @@ q3 9 8.5 13.5t13.5 3.5t11 -6.5t0 -16.5q-11 -38 -31.5 -57.5t-50.5 -19.5q-28 0 -48
     <hkern u1="&#xed;" u2="]" k="-70" />
     <hkern u1="&#xed;" u2="&#x3f;" k="-20" />
     <hkern u1="&#xed;" u2="&#x29;" k="-70" />
+    <hkern u1="&#xee;" u2="&#x201d;" k="-30" />
+    <hkern u1="&#xee;" u2="&#x201c;" k="-30" />
+    <hkern u1="&#xee;" u2="&#x2019;" k="-30" />
+    <hkern u1="&#xee;" u2="&#x2018;" k="-30" />
+    <hkern u1="&#xee;" u2="&#x7d;" k="-16" />
+    <hkern u1="&#xee;" u2="]" k="-16" />
+    <hkern u1="&#xee;" u2="&#x3f;" k="-40" />
+    <hkern u1="&#xee;" u2="&#x2a;" k="-50" />
+    <hkern u1="&#xee;" u2="&#x29;" k="-16" />
+    <hkern u1="&#xef;" u2="&#x201d;" k="-40" />
+    <hkern u1="&#xef;" u2="&#x201c;" k="-40" />
+    <hkern u1="&#xef;" u2="&#x2019;" k="-40" />
+    <hkern u1="&#xef;" u2="&#x2018;" k="-40" />
+    <hkern u1="&#xef;" u2="&#x7d;" k="-40" />
+    <hkern u1="&#xef;" u2="]" k="-40" />
+    <hkern u1="&#xef;" u2="&#x3f;" k="-30" />
+    <hkern u1="&#xef;" u2="&#x2a;" k="-10" />
+    <hkern u1="&#xef;" u2="&#x29;" k="-40" />
+    <hkern u1="&#xfd;" u2="&#x167;" k="-29" />
+    <hkern u1="&#xfd;" u2="&#x165;" k="-49" />
+    <hkern u1="&#xfd;" u2="t" k="-5" />
+    <hkern u1="&#xff;" u2="&#x167;" k="-29" />
+    <hkern u1="&#xff;" u2="&#x165;" k="-49" />
+    <hkern u1="&#xff;" u2="t" k="-5" />
     <hkern u1="&#x126;" u2="&#x18a;" k="-40" />
     <hkern u1="&#x126;" u2="&#x181;" k="-40" />
     <hkern u1="&#x129;" u2="&#x201d;" k="-50" />
