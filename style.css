@@ -1276,7 +1276,11 @@ background-image: url(/useruploads/r/a/402171738/activity_other_imported/fondo_t
 }
 /*general*/
 body {
-	font-family: 'Nunito';
+    font: 400 15px 'Source Sans Pro',sans-serif;
+    line-height: 21px;
+    font-family: 'Nunito';
+    color: #414141;
+    background-color: #eee;
 }
 
    /************************
