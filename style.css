@@ -1175,6 +1175,23 @@ body #book-index #indice .col-main {
     display: none;
 }
 
+#layout-container .section-title-1 {
+    font-size: 60px;
+    font-family: 'DK Smiling Cat';
+} 
+
+#layout-container #main-screen #course-header {
+    align-items: stretch;
+    background-color: #ffffff00;
+    color: #ffffff;
+    flex: 1;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-bottom: 15px;
+    padding-left: calc(10% + 75px);
+    z-index: 2;
+}
+
 /*UNIDAD*/
 #layout-container div[id*="section-screen"] .section .section-data .desc-wrapper {
 	background-size: contain !important;
@@ -1196,7 +1213,6 @@ body #book-index #indice .col-main {
     border-radius: 100%;
     bottom: calc(90% - 100%);
     color: #ffffff;
-    /* display: flex; */
     flex: unset;
     float: left;
     height: 95px;
