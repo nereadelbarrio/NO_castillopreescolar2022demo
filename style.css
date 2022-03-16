@@ -1288,20 +1288,13 @@ body #layout-container div[id*="section-screen"] .section .section-content .tabs
     user-select: none;
 }
 
-#layout-container div[id*="section-screen"] .section .section-content .tabs-content .content .unit-content .separator:before {
-background-image: url(/useruploads/r/a/402171738/activity_other_imported/fondo_titulos.png);
-    background-size: contain;
-    background-repeat: no-repeat;
-}
 
-
-#layout-container div[id*="section-screen"] .section .section-content .tabs-content .content .unit-content .separator, {
-	color: #253347;
-    border-bottom: 1px solid #ffffff;
+#layout-container div[id*="section-screen"] .section .section-content .tabs-content .content .unit-content .separator {
+	color: #0f332c;
+    border-bottom: 4px solid #0F332C;
     margin-bottom: 15px;
-    font-size: 20px;
+    font-weight: 700;
     padding-bottom: 15px;
-    font-weight: 600;
 }
 
 #layout-container span {
@@ -1322,7 +1315,7 @@ body {
 }
 
 
-/*iconos MIRAR TICKT BROMERA BK-22147*/
+/*iconos MIRAR TICKeT barcanova BK-22147*/
 #layout-container div[id*="section-screen"] .section .section-content .tabs-content .content .unit-content .content-item .content-img {
 	height: 68px;
     width: 68px;
