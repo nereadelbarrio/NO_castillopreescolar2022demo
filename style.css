@@ -1372,12 +1372,12 @@ body {
  /*pdf*/
 
 #layout-container div[id*=section-screen] .section .section-content .tabs-content .content .unit-content .content-item .content-img.type-6.libro {
-    background-image: url(images/icono_pdf.png)
+    background-image: url(images/icono_pdf.png);
 }
 
 #layout-container div[id*=section-screen] .section .section-content .tabs-content .content .resources-content .content-item .content-img.type-6.libro,
 #layout-container div[id*=section-screen] .section .section-content .tabs-content .content.teacher-content .unit-content .content-item .content-img.type-6.libro {
-    background-image: url(images/icono_pdf.png.)!important
+    background-image: url(images/icono_pdf.png)!important
 }
  /*enlace*/
 #layout-container div[id*=section-screen] .section .section-content .tabs-content .content .unit-content .content-item .content-img.type-7.url {
