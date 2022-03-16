@@ -1336,6 +1336,19 @@ body {
     left: -41px;
 }
 
+#layout-container div[id*="section-screen"] .section .section-content .tabs-content .content .unit-content .content-item .content-img, #layout-container div[id*="section-screen"] .section .section-content .tabs-content .content .resources-content .content-item .content-img {
+		height: 68px;
+    width: 68px;
+    box-shadow: none;
+    background-color: transparent;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 0%;
+    position: absolute;
+    left: -41px;
+}
+
  /*imgen*/
 
 #layout-container div[id*=section-screen] .section .section-content .tabs-content .content .unit-content .content-item .content-img.type-8.img {
