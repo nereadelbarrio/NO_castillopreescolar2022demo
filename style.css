@@ -1269,9 +1269,11 @@ body #layout-container div[id*="section-screen"] .section .section-content .tabs
     user-select: none;
 }
 
+#layout-container div[id*="section-screen"] .section .section-content .tabs-content .content .unit-content .separator:before {
 background-image: url(/useruploads/r/a/402171738/activity_other_imported/fondo_titulos.png);
     background-size: contain;
     background-repeat: no-repeat;
+}
 /*general*/
 body {
 	font-family: 'Nunito';
