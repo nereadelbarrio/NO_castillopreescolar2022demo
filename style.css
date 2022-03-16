@@ -1112,7 +1112,7 @@ body #book-index #indice .col-main {
 }
 
 
-
+/*PORTADA*/
 
 
 #layout-container #main-screen #course-content .slider-wrapper .slider-itemtrack .slider-item {
@@ -1138,9 +1138,14 @@ body #book-index #indice .col-main {
 }
 
 #layout-container #main-screen #course-content .slider-wrapper .slider-itemtrack .slider-item .section-title h3 {
-	color: #26354B;
-    font-weight: 800;
+    color: #26354B;
+    font-size: 35px;
+    line-height: 1.2;
+    font-weight: 600;
     margin: auto;
+    font-family: 'DK Smiling Cat';
+    text-align: center;
+    margin-top: -20px;
 }
 
 #layout-container #main-screen #course-content .slider-wrapper .slider-navcontrol {
@@ -1151,6 +1156,30 @@ body #book-index #indice .col-main {
 	padding-bottom: 44px;
 }
 
+
+#layout-container #main-screen #course-content .slider-wrapper .slider-itemtrack .slider-item .section-number {
+    align-items: center;
+    background-color: #223c3f;
+    border-radius: 100%;
+    bottom: -28px;
+    color: #ffffff;
+    display: flex;
+    flex: unset;
+    float: left;
+    height: 52px;
+    justify-content: center;
+    left: 24px;
+    position: absolute;
+    width: 52px;
+    z-index: 1;
+    display: none;
+}
+
+/*UNIDAD*/
+#layout-container div[id*="section-screen"] .section .section-data .desc-wrapper {
+	background-size: contain;
+    background-repeat: no-repeat;
+}
    /************************
    * CSS AÑADIDO POR HTML *
    ************************/
