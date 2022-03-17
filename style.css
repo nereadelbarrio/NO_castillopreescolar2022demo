@@ -1335,7 +1335,7 @@ body #layout-container div[id*="section-screen"] .section .section-content .tabs
 }
 
 #layout-container ::-webkit-scrollbar-thumb {
-    background-color: #cea905
+    background-color: #0f332c;
 }
 
 /*general*/
