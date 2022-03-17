@@ -1350,6 +1350,7 @@ body {
 /*menu lateral*/
 body #book-index #indice .col-main {
 	background-color: #44B4AB;
+	background-image: none;
 }
 
 #book-index #indice .unit-content a {
@@ -1395,7 +1396,7 @@ body #book-index #indice .units ul#list-units li:not(.disabled).active a {
     left: -41px;
 }
 
- /*imgen*/
+ /*imgen   https://admin.blinklearning.com/useruploads/r/a/402107602/activity_other_imported/icono_imagen.png*/
 
 #layout-container div[id*=section-screen] .section .section-content .tabs-content .content .unit-content .content-item .content-img.type-8.img {
     background-image: url(images/icono_imagen.png)
@@ -1404,13 +1405,23 @@ body #book-index #indice .units ul#list-units li:not(.disabled).active a {
 #layout-container div[id*=section-screen] .section .section-content .tabs-content .content .resources-content .content-item .content-img.type-8.img,#layout-container div[id*=section-screen] .section .section-content .tabs-content .content.teacher-content .unit-content .content-item .content-img.type-8.img {
     background-image: url(images/icono_imagen.png)!important
 }
+
+#indice .unit-content .material .item .imagen.img:before {
+    background-image: url(images/icono_imagen.png)!important
+}
  /*actividadblink*/
 
 #layout-container div[id*=section-screen] .section .section-content .tabs-content .content .resources-content .content-item .content-img.type-6.actividad,
 #layout-container div[id*=section-screen] .section .section-content .tabs-content .content.teacher-content .unit-content .content-item .content-img.type-6.actividad {
     background-image: url(images/icono_actividadblink.png)!important
 }
- /*video*/
+
+
+#indice .unit-content .material .item .imagen.actividad:after {
+	background-image: url(images/icono_actividadblink.png)!important
+}
+
+ /*video  https://admin.blinklearning.com/useruploads/r/a/402107606/activity_other_imported/icono_video.png*/
 
 #layout-container div[id*=section-screen] .section .section-content .tabs-content .content .unit-content .content-item .content-img.type-2.video {
     background-image: url(images/icono_video.png)
@@ -1420,7 +1431,12 @@ body #book-index #indice .units ul#list-units li:not(.disabled).active a {
 #layout-container div[id*=section-screen] .section .section-content .tabs-content .content.teacher-content .unit-content .content-item .content-img.type-2.video {
     background-image: url(images/icono_video.png)!important
 }
- /*audio*/
+
+body #book-index #indice .col-main .unit-content .material .item .imagen.video:before {
+	background-image: url(images/icono_video.png)!important
+}
+
+ /*audio  https://admin.blinklearning.com/useruploads/r/a/402107594/activity_other_imported/icono_audio.png*/
 
 #layout-container div[id*=section-screen] .section .section-content .tabs-content .unit-content .content-item .content-img.type-3.musica {
     background-image: url(images/icono_audio.png)
@@ -1430,7 +1446,13 @@ body #book-index #indice .units ul#list-units li:not(.disabled).active a {
 #layout-container div[id*=section-screen] .section .section-content .tabs-content .content.teacher-content .unit-content .content-item .content-img.type-3.musica {
     background-image: url(images/icono_audio.png)!important
 }
+
+body #book-index #indice .col-main .unit-content .material .item .imagen.musica:before {
+	background-image: url(images/icono_audio.png)!important
+}
+
  /*archivo*/
+}
 
 #layout-container div[id*=section-screen] .section .section-content .tabs-content .content .unit-content .content-item .content-img.type-5.archivo {
     background-image: url(images/icono_actividad.png)
@@ -1439,6 +1461,10 @@ body #book-index #indice .units ul#list-units li:not(.disabled).active a {
 #layout-container div[id*=section-screen] .section .section-content .tabs-content .content .resources-content .content-item .content-img.type-5.archivo,
 #layout-container div[id*=section-screen] .section .section-content .tabs-content .content.teacher-content .unit-content .content-item .content-img.type-5.archivo {
     background-image: url(images/icono_actividad.png)!important
+}
+
+#indice .unit-content .material .item .imagen.archivo:before {
+	background-image: url(images/icono_actividad.png)!important
 }
 
  /*pdf*/
@@ -1451,6 +1477,12 @@ body #book-index #indice .units ul#list-units li:not(.disabled).active a {
 #layout-container div[id*=section-screen] .section .section-content .tabs-content .content.teacher-content .unit-content .content-item .content-img.type-6.libro {
     background-image: url(images/icono_pdf.png)!important
 }
+
+#indice .unit-content .material .item .imagen.libro:after {
+	background-image: url(images/icono_pdf.png)!important
+}
+
+
  /*enlace*/
 #layout-container div[id*=section-screen] .section .section-content .tabs-content .content .unit-content .content-item .content-img.type-7.url {
     background-image: url(images/icono_enlace.png)
@@ -1461,7 +1493,21 @@ body #book-index #indice .units ul#list-units li:not(.disabled).active a {
     background-image: url(images/icono_enlace.png)!important
 }
 
+#indice .unit-content .material .item .imagen.url:before {
+	background-image: url(images/icono_enlace.png)!important
+}
 
+
+/**/
+body #book-index #indice .col-main li a:hover {
+	    border-bottom: none;
+}
+
+#book-index #indice .unit-content .material .item .imagen {
+	width: 80px;
+    height: 80px;
+    border: none;
+}
 
 /**************iconos
  /*imgen*/
