@@ -1329,6 +1329,11 @@ body #layout-container div[id*="section-screen"] .section .section-content .tabs
     background-image: none;
 }
 
+#layout-container div[id*="section-screen"] .section .section-content .tabs-content .content.teacher-content .unit-content .content-item .circle-outer, 
+#layout-container div[id*="section-screen"] .section .section-content .tabs-content .content.teacher-content .resources-content .content-item .circle-outer {
+	background-image: none;
+}
+
 /*general*/
 body {
     font: 400 15px 'Source Sans Pro',sans-serif;
