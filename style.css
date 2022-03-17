@@ -1315,6 +1315,15 @@ body #layout-container div[id*="section-screen"] .section .section-content .tabs
 	display: none;
 }
 
+#layout-container div[id*="section-screen"] .section .section-content .tabs-content .content.teacher-content .unit-content .content-item .circle-inner {
+	display: none;
+}
+
+#layout-container div[id*="section-screen"] .section .section-content .tabs-content .content.teacher-content .unit-content .content-item .content-img {
+	height: 71px;
+    width: 71px;
+}
+
 /*general*/
 body {
     font: 400 15px 'Source Sans Pro',sans-serif;
