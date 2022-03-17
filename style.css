@@ -1322,6 +1322,7 @@ body #layout-container div[id*="section-screen"] .section .section-content .tabs
 #layout-container div[id*="section-screen"] .section .section-content .tabs-content .content.teacher-content .unit-content .content-item .content-img {
 	height: 71px;
     width: 71px;
+    background-image: none;
 }
 
 /*general*/
