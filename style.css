@@ -1305,6 +1305,16 @@ body #layout-container div[id*="section-screen"] .section .section-content .tabs
     color: #0F332C;
 }
 
+
+#layout-container div[id*="section-screen"] .section .section-content .tabs-content .content .unit-content .content-item:hover {
+	background-color: #EBF3D6;
+    color: #233347;
+}
+
+#layout-container div[id*="section-screen"] .section .section-content .tabs-content .content .unit-content .content-item:after {
+	display: none;
+}
+
 /*general*/
 body {
     font: 400 15px 'Source Sans Pro',sans-serif;
