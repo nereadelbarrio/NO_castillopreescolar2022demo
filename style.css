@@ -1334,6 +1334,10 @@ body #layout-container div[id*="section-screen"] .section .section-content .tabs
 	background-image: none;
 }
 
+#layout-container ::-webkit-scrollbar-thumb {
+    background-color: #cea905
+}
+
 /*general*/
 body {
     font: 400 15px 'Source Sans Pro',sans-serif;
@@ -1341,6 +1345,26 @@ body {
     font-family: 'Nunito';
     color: #414141;
     background-color: #eee;
+}
+
+/*menu lateral*/
+body #book-index #indice .col-main {
+	background-color: #44B4AB;
+}
+
+#book-index #indice .unit-content a {
+    color: #26354b;
+}
+
+body #book-index #indice .col-main li a:hover {
+    color: #26354b;
+    border-bottom: 2px solid #26354b;
+    padding-bottom: 7px;
+}
+
+body:not(.isTablet) #book-index #indice .units ul#list-units li:not(.disabled).active a, 
+body #book-index #indice .units ul#list-units li:not(.disabled).active a {
+    background: #44b4ab;
 }
 
 
