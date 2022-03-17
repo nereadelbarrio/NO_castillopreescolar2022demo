@@ -1533,9 +1533,9 @@ body #book-index #indice .col-main .unit-content .material .item .imagen.libro:b
 }
 
 /**/
-/*body #book-index #indice .col-main li a:hover {
-	    border-bottom: none;
-}*/
+body #book-index #indice .col-main li a:hover {
+	color: #26354b;
+}
 
 #book-index #indice .unit-content .material .item .imagen {
 	width: 80px;
