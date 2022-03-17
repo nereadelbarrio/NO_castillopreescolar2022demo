@@ -1357,7 +1357,7 @@ body #book-index #indice .col-main {
     color: #26354b;
 }
 
-body #book-index #indice .col-main li a:hover {
+body:not(.isTablet) #book-index #indice .unit-content .actividades .item:hover {
     color: #26354b;
     border-bottom: 2px solid #26354b;
     padding-bottom: 7px;
@@ -1365,6 +1365,11 @@ body #book-index #indice .col-main li a:hover {
 
 body:not(.isTablet) #book-index #indice .units ul#list-units li:not(.disabled).active a, 
 body #book-index #indice .units ul#list-units li:not(.disabled).active a {
+    background: #44b4ab;
+}
+
+body:not(.isTablet) #book-index #indice .units ul#list-units li:not(.disabled):not(.active) a:hover, 
+body #book-index #indice .units ul#list-units li:not(.disabled):not(.active) a:hover {
     background: #44b4ab;
 }
 
