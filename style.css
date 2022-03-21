@@ -1547,73 +1547,24 @@ body #book-index #indice .col-main li a:hover {
 	display: none;
 }
 
-/**************iconos
- /*imgen*/
-/*
-#layout-container div[id*=section-screen] .section .section-content .tabs-content .content .unit-content .content-item .content-img.type-8.img {
-    background-image: url(images/icono_imagen.png)
+/*CK-EDITOR*/
+/*TITULOS*/
+.bck-title-1 {
+	color: #4480B9;
+    font-family: 'DK Smiling Cat';
+    font-size: 40px;
+    padding: 8px 8px 8px 0px;
+    margin-left: 0;
 }
 
-#layout-container div[id*=section-screen] .section .section-content .tabs-content .content .resources-content .content-item .content-img.type-8.img,#layout-container div[id*=section-screen] .section .section-content .tabs-content .content.teacher-content .unit-content .content-item .content-img.type-8.img {
-    background-image: url(images/icono_imagen.png)!important
-}
- /*actividadblink*/
-/*
-#layout-container div[id*=section-screen] .section .section-content .tabs-content .content .resources-content .content-item .content-img.type-6.actividad,
-#layout-container div[id*=section-screen] .section .section-content .tabs-content .content.teacher-content .unit-content .content-item .content-img.type-6.actividad {
-    background-image: url(images/icono_actividadblink.png)!important
-}
- /*video*/
-/*
-#layout-container div[id*=section-screen] .section .section-content .tabs-content .content .unit-content .content-item .content-img.type-2.video {
-    background-image: url(images/icono_video.png)
+.bck-title-2 {
+	color: #4480B9;
+    font-family: 'Nunito';
+    font-size: 40px;
+    padding: 8px 8px 8px 0px;
+    margin-left: 0;
 }
 
-#layout-container div[id*=section-screen] .section .section-content .tabs-content .content .resources-content .content-item .content-img.type-2.video,
-#layout-container div[id*=section-screen] .section .section-content .tabs-content .content.teacher-content .unit-content .content-item .content-img.type-2.video {
-    background-image: url(images/icono_video.png)!important
-}
- /*audio*/
-/*
-#layout-container div[id*=section-screen] .section .section-content .tabs-content .unit-content .content-item .content-img.type-3.musica {
-    background-image: url(images/icono_audio.png)
-}
-
-#layout-container div[id*=section-screen] .section .section-content .tabs-content .content .resources-content .content-item .content-img.type-3.musica,
-#layout-container div[id*=section-screen] .section .section-content .tabs-content .content.teacher-content .unit-content .content-item .content-img.type-3.musica {
-    background-image: url(images/icono_audio.png)!important
-}
- /*archivo*/
-/*
-#layout-container div[id*=section-screen] .section .section-content .tabs-content .content .unit-content .content-item .content-img.type-5.archivo {
-    background-image: url(images/icono_actividad.png)
-}
-
-#layout-container div[id*=section-screen] .section .section-content .tabs-content .content .resources-content .content-item .content-img.type-5.archivo,
-#layout-container div[id*=section-screen] .section .section-content .tabs-content .content.teacher-content .unit-content .content-item .content-img.type-5.archivo {
-    background-image: url(images/icono_actividad.png)!important
-}
-
- /*pdf*/
-/*
-#layout-container div[id*=section-screen] .section .section-content .tabs-content .content .unit-content .content-item .content-img.type-6.libro {
-    background-image: url(images/icono_pdf.png)
-}
-
-#layout-container div[id*=section-screen] .section .section-content .tabs-content .content .resources-content .content-item .content-img.type-6.libro,
-#layout-container div[id*=section-screen] .section .section-content .tabs-content .content.teacher-content .unit-content .content-item .content-img.type-6.libro {
-    background-image: url(images/icono_pdf.png.)!important
-}
- /*enlace*/
-/*#layout-container div[id*=section-screen] .section .section-content .tabs-content .content .unit-content .content-item .content-img.type-7.url {
-    background-image: url(images/icono_enlace.png.png)
-}
-
-#layout-container div[id*=section-screen] .section .section-content .tabs-content .content .resources-content .content-item .content-img.type-7.url,
-#layout-container div[id*=section-screen] .section .section-content .tabs-content .content.teacher-content .unit-content .content-item .content-img.type-7.url {
-    background-image: url(images/icono_enlace.png.png)!important
-}
-*/
    /************************
    * CSS AÑADIDO POR HTML *
    ************************/
