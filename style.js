@@ -99,9 +99,15 @@ __webpack_require__.r(__webpack_exports__);
 *   Array con la definición de los estilos para el editor de CKEditor
 */
 const ckeStyles = [
-  {name: 'Caja 1', type: 'widget', widget: 'blink_box', attributes: {'class': 'box-1'}},
-  {name: 'Caja 2', type: 'widget', widget: 'blink_box', attributes: {'class': 'box-2'}},
-  {name: 'Énfasis', element: 'span', attributes: {'class': 'bck-enfasis'}}
+  { name: 'Título 01', element: 'h2', attributes: { 'class': 'bck-title bck-title-1'} },
+  { name: 'Título 02', element: 'h2', attributes: { 'class': 'bck-title bck-title-2'} },  
+
+  { name: 'Lista desordenada 01', element: 'ul', attributes: { 'class': 'bck-ul bck-ul-1'} },
+  { name: 'Lista desordenada 02', element: 'ul', attributes: { 'class': 'bck-ul bck-ul-2'} },
+  
+  { name: 'Lista ordenada 01', element: 'ol', attributes: { 'class': 'bck-ol bck-ol-1' } },
+  { name: 'Lista ordenada 02', element: 'ol', attributes: { 'class': 'bck-ol bck-ol-2' } }
+
   // Añadir elementos CKEditor aquí.
 ];
 /* harmony default export */ __webpack_exports__["default"] = (ckeStyles);
