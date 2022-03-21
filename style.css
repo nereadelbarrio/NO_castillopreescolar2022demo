@@ -1423,7 +1423,7 @@ body #book-index #indice .units ul#list-units li:not(.disabled):not(.active) a:h
  /*actividadblink*/
 
 #layout-container div[id*=section-screen] .section .section-content .tabs-content .content .resources-content .content-item .content-img.type-6.actividad,
-#layout-container div[id*=section-screen] .section .section-content .tabs-content .content.teacher-content .unit-content .content-item .content-img.type-6.actividad {
+#layout-container div[id*=section-screen] .section .section-content .tabs-content .content .unit-content .content-item .content-img.type-6.actividad {
     background-image: url(images/icono_actividadblink.png)!important
 }
 
@@ -1778,6 +1778,27 @@ margin-left: -15px;
     display: inline-block;
     text-shadow: 1px 2px 0px #26354b;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+#layout-container div[id*=section-screen] .section .section-content .tabs-content .content .resources-content .content-item .content-img.type-6.actividad, 
+#layout-container div[id*=section-screen] .section .section-content .tabs-content  .unit-content .content-item .content-img.type-6.actividad {
+
+}
+
+
+
+
+
 
    /************************
    * CSS AÑADIDO POR HTML *
