@@ -1652,9 +1652,6 @@ body #book-index #indice .col-main li a:hover {
 
 
 /*DESORDENADAS*/
-.texto_curso ul li {
-    padding-left: 40px
-}
 
 #actividad .workspace.matching .box ul li:before,
 #actividad .workspace.multiple-choice .js-item ul li:before,
@@ -1715,8 +1712,6 @@ body #book-index #indice .col-main li a:hover {
     position: relative;
     list-style: none;
     margin-bottom: 5px;
-    font-family: 'Glober';
-    color: #fff;
     margin-left: -6px;
     font-weight: 500;
 }
