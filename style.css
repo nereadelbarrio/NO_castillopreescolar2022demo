@@ -1319,18 +1319,18 @@ body #layout-container div[id*="section-screen"] .section .section-content .tabs
 	display: none;
 }
 
-#layout-container div[id*="section-screen"] .section .section-content .tabs-content .content.teacher-content .unit-content .content-item .circle-inner {
+#layout-container div[id*="section-screen"] .section .section-content .tabs-content .content .unit-content .content-item .circle-inner {
 	display: none;
 }
 
-#layout-container div[id*="section-screen"] .section .section-content .tabs-content .content.teacher-content .unit-content .content-item .content-img {
+#layout-container div[id*="section-screen"] .section .section-content .tabs-content .content .unit-content .content-item .content-img {
 	height: 71px;
     width: 71px;
     background-image: none;
 }
 
-#layout-container div[id*="section-screen"] .section .section-content .tabs-content .content.teacher-content .unit-content .content-item .circle-outer, 
-#layout-container div[id*="section-screen"] .section .section-content .tabs-content .content.teacher-content .resources-content .content-item .circle-outer {
+#layout-container div[id*="section-screen"] .section .section-content .tabs-content .content .unit-content .content-item .circle-outer, 
+#layout-container div[id*="section-screen"] .section .section-content .tabs-content .content .resources-content .content-item .circle-outer {
 	background-image: none;
 }
 
@@ -1407,7 +1407,8 @@ body #book-index #indice .units ul#list-units li:not(.disabled):not(.active) a:h
     background-image: url(images/icono_imagen.png)
 }
 
-#layout-container div[id*=section-screen] .section .section-content .tabs-content .content .resources-content .content-item .content-img.type-8.img,#layout-container div[id*=section-screen] .section .section-content .tabs-content .content.teacher-content .unit-content .content-item .content-img.type-8.img {
+#layout-container div[id*=section-screen] .section .section-content .tabs-content .content .resources-content .content-item .content-img.type-8.img,
+#layout-container div[id*=section-screen] .section .section-content .tabs-content .content .unit-content .content-item .content-img.type-8.img {
     background-image: url(images/icono_imagen.png)!important
 }
 
@@ -1443,7 +1444,7 @@ body #book-index #indice .units ul#list-units li:not(.disabled):not(.active) a:h
 }
 
 #layout-container div[id*=section-screen] .section .section-content .tabs-content .content .resources-content .content-item .content-img.type-2.video,
-#layout-container div[id*=section-screen] .section .section-content .tabs-content .content.teacher-content .unit-content .content-item .content-img.type-2.video {
+#layout-container div[id*=section-screen] .section .section-content .tabs-content .content .unit-content .content-item .content-img.type-2.video {
     background-image: url(images/icono_video.png)!important
 }
 
@@ -1462,7 +1463,7 @@ body #book-index #indice .col-main .unit-content .material .item .imagen.video:b
 }
 
 #layout-container div[id*=section-screen] .section .section-content .tabs-content .content .resources-content .content-item .content-img.type-3.musica,
-#layout-container div[id*=section-screen] .section .section-content .tabs-content .content.teacher-content .unit-content .content-item .content-img.type-3.musica {
+#layout-container div[id*=section-screen] .section .section-content .tabs-content .content .unit-content .content-item .content-img.type-3.musica {
     background-image: url(images/icono_audio.png)!important
 }
 
@@ -1482,7 +1483,7 @@ body #book-index #indice .col-main .unit-content .material .item .imagen.musica:
 }
 
 #layout-container div[id*=section-screen] .section .section-content .tabs-content .content .resources-content .content-item .content-img.type-5.archivo,
-#layout-container div[id*=section-screen] .section .section-content .tabs-content .content.teacher-content .unit-content .content-item .content-img.type-5.archivo {
+#layout-container div[id*=section-screen] .section .section-content .tabs-content .content .unit-content .content-item .content-img.type-5.archivo {
     background-image: url(images/icono_actividad.png)!important
 }
 
@@ -1501,7 +1502,7 @@ body #book-index #indice .col-main .unit-content .material .item .imagen.musica:
 }
 
 #layout-container div[id*=section-screen] .section .section-content .tabs-content .content .resources-content .content-item .content-img.type-6.libro,
-#layout-container div[id*=section-screen] .section .section-content .tabs-content .content.teacher-content .unit-content .content-item .content-img.type-6.libro {
+#layout-container div[id*=section-screen] .section .section-content .tabs-content .content .unit-content .content-item .content-img.type-6.libro {
     background-image: url(images/icono_pdf.png)!important
 }
 
@@ -1520,7 +1521,7 @@ body #book-index #indice .col-main .unit-content .material .item .imagen.libro:b
 }
 
 #layout-container div[id*=section-screen] .section .section-content .tabs-content .content .resources-content .content-item .content-img.type-7.url,
-#layout-container div[id*=section-screen] .section .section-content .tabs-content .content.teacher-content .unit-content .content-item .content-img.type-7.url {
+#layout-container div[id*=section-screen] .section .section-content .tabs-content .content .unit-content .content-item .content-img.type-7.url {
     background-image: url(images/icono_enlace.png)!important
 }
 
@@ -1778,27 +1779,6 @@ margin-left: -15px;
     display: inline-block;
     text-shadow: 1px 2px 0px #26354b;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-#layout-container div[id*=section-screen] .section .section-content .tabs-content .content .resources-content .content-item .content-img.type-6.actividad, 
-#layout-container div[id*=section-screen] .section .section-content .tabs-content  .unit-content .content-item .content-img.type-6.actividad {
-
-}
-
-
-
-
-
 
    /************************
    * CSS AÑADIDO POR HTML *
