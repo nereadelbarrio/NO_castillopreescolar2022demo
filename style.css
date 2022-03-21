@@ -1547,6 +1547,11 @@ body #book-index #indice .col-main li a:hover {
 	display: none;
 }
 
+.go-back button:hover,  
+#layout-container div.go-back button:hover {
+	color: #44b4ab;
+}
+
 /*CK-EDITOR*/
 /*TITULOS*/
 .bck-title-1 {
