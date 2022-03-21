@@ -1593,7 +1593,7 @@ body #book-index #indice .col-main li a:hover {
 #actividad .content .texto_curso ol.bck-ol-1 li:before,
 #actividad .content .workspace ul li ol.bck-ol-1 li:before,
 #actividad .popover-content ol.bck-ol-1 li:before {
-    content: counter(bck-li-counter);
+	content: counter(bck-li-counter);
     background: #3AA2A6;
     position: absolute;
     border-radius: 100%;
@@ -1601,11 +1601,12 @@ body #book-index #indice .col-main li a:hover {
     margin-top: -3px;
     text-align: center;
     margin-left: -36px;
-    width: 25px;
+    width: 28px;
     font-size: 22px;
     font-family: 'DK Smiling Cat';
     padding-top: 2px;
     padding-bottom: 2px;
+    FONT-WEIGHT: 500;
 }
 
 
@@ -1615,8 +1616,7 @@ body #book-index #indice .col-main li a:hover {
 #actividad .content .workspace ul li .bck-ol-2 {
     list-style-type: none;
     counter-reset: bck-li-counter;
-    font-family: 'Glober';
-    margin-left: -11px;
+    margin-left: -5px;
 }
 
 #actividad .content .cke_contents .bck-ol-2 li,
@@ -1652,6 +1652,9 @@ body #book-index #indice .col-main li a:hover {
 
 
 /*DESORDENADAS*/
+.texto_curso ul li {
+	padding-left: 34px;
+}
 
 #actividad .workspace.matching .box ul li:before,
 #actividad .workspace.multiple-choice .js-item ul li:before,
@@ -1694,7 +1697,7 @@ body #book-index #indice .col-main li a:hover {
     border-radius: 50%;
     position: absolute;
     margin-top: .6em;
-    margin-left: 6px
+margin-left: -15px;
 }
 
 /*Lista desordenadas 1*/
@@ -1708,7 +1711,7 @@ body #book-index #indice .col-main li a:hover {
 #actividad .content .texto_curso .bck-ul-1 li,
 #actividad .content .workspace ul li .bck-ul-1 li,
 #actividad .popover-content .bck-ul-1 li {
-	padding-left: 30px;
+	padding-left: 40px;
     position: relative;
     list-style: none;
     margin-bottom: 5px;
